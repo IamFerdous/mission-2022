@@ -107,3 +107,16 @@ h2 {
 .app-section img {
   width: 100%;
 }
+footer {
+  height: 180px;
+  background: #0b0d17;
+  padding: 40px;
+}
+footer h2 {
+  color: #ffffff;
+}
+footer small {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
