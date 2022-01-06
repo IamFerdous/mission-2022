@@ -3,12 +3,13 @@ body {
   margin: 0;
   padding: 0;
 }
-.focused-section {
+.focused-section,
+.mission-section {
   padding: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
 }
@@ -35,9 +36,9 @@ body {
   border-radius: 5px;
 }
 .orange-color {
-  color: #ffa500;
+  color: #ffad5a;
 }
-p {
+.half-width p {
   text-align: justify;
   color: #3e3e3e;
 }
@@ -51,4 +52,32 @@ p {
 }
 .link-button:hover {
   background-color: #080808;
+}
+.mission-section h2 {
+  text-align: center;
+  color: #13103a;
+  font-size: 35px;
+}
+.three-part {
+  width: 350px;
+  height: 370px;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.three-part img {
+  width: 50%;
+}
+.part-one {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.part-two {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.part-three {
+  background-color: rgb(255, 244, 214, 0.9);
+}
+.three-part p {
+  font-size: 14px;
+  text-align: justify;
 }
